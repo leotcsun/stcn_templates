@@ -268,7 +268,7 @@ CSS 写作注意事项：
 	.mtn { margin-top: 5px !important; }
 	.mbn { margin-bottom: 5px !important; }
 	.mtm { margin-top: 10px !important; }
-	.mbm { margin-bottom: 10px !important; }
+	.mbm { margin-bottom: 5px !important; }
 	.mtw { margin-top: 20px !important; }
 	.mbw { margin-bottom: 20px !important; }
 /*
@@ -1685,6 +1685,7 @@ DIY图片幻灯片未加载时隐藏
 .top_notice {
 	float:left;
 	width:33%;
+	text-align: center;
 }
 
 #diy1 {
@@ -1769,5 +1770,9 @@ DIY图片幻灯片未加载时隐藏
 #diy1 .frame-1-1-1-r {
 	position: relative;
 	left: 1px;
+}
+
+#diy3 .dxb_bc {
+	margin: 5px 15px;
 }
 
