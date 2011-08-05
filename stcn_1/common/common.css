@@ -428,7 +428,7 @@ CSS 写作注意事项：
 		.ie6 a.pn em, .ie6 a.pn span, .ie6 a.pn strong { display: block; }
 		.ie7 a.pn em, .ie7 a.pn span, .ie7 a.pn strong { line-height: 21px; }
 
-	.pnc, a.pnc { border-color: #BC6F03; background-color: #E8AB55; background-position: 0 -48px; color: white !important; }
+	.pnc, a.pnc { border-color: #BC6F03; background-color: #E8AB55; background-position: 0 -48px; color: white !important; padding: 0 1em;}
 		.pnc:active { background-position: 0 -71px; }
 	
 	.pnpost .pn { height: 26px; }
@@ -1274,7 +1274,7 @@ CSS 写作注意事项：
 	.pgs #newspecial, .pgs #newspecialtmp, .pgs #post_reply, .pgs #post_replytmp { float: left; margin-right: 5px; }
 	.pg { float: right; }
 	.pg, .pgb { line-height: 26px; }
-		.pg a, .pg strong, .pgb a { float: left; display: inline; margin-left: 4px; padding: 0 8px; height: 26px; border: 1px solid; border-color: #BC6F03; background-color: {WRAPBG}; background-repeat: no-repeat; color: {LINK}; overflow: hidden; text-decoration: none; }
+		.pg a, .pg strong, .pgb a { float: left; display: inline; margin-left: 4px; padding: 0 8px; height: 26px; border: 1px solid; border-color: #BC6F03; background-color: {WRAPBG}; background-repeat: no-repeat; color: #BC6F03; overflow: hidden; text-decoration: none; }
 			.pg a.nxt, .pgb a { padding: 0 10px; }
 			.pg a:hover, .pgb a:hover { border-color: {HIGHLIGHTLINK}; color: {HIGHLIGHTLINK}; }
 			.pg a.nxt { padding-right: 25px; background-image: url({IMGDIR}/arw_r.gif); background-position: 90% 50%; }
