@@ -1686,6 +1686,10 @@ DIY图片幻灯片未加载时隐藏
 	float:left;
 	width:33%;
 	text-align: center;
+	margin-bottom: 5px;
+	border: dotted;
+	border-width: 0 0 1px 0;
+	border-color: #e5e5e5;
 }
 
 #diy1 {
@@ -1776,3 +1780,16 @@ DIY图片幻灯片未加载时隐藏
 	margin: 5px 15px;
 }
 
+.md_ctrl a img {
+	height: 80px;
+	width: 120px;
+}
+
+.forum_icon_a, .forum_icon_b {
+	float: left;
+}
+
+.forum_icon_a {
+	padding: 10px 0;
+	margin-right: 10px;
+}

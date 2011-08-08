@@ -1,4 +1,4 @@
-<!--{eval $needhiddenreply = ($hiddenreplies && $_G['uid'] != $post['authorid'] && $_G['uid'] != $_G['forum_thread']['authorid'] && !$post['first'] && !$_G['forum']['ismoderator']);}-->
+﻿<!--{eval $needhiddenreply = ($hiddenreplies && $_G['uid'] != $post['authorid'] && $_G['uid'] != $_G['forum_thread']['authorid'] && !$post['first'] && !$_G['forum']['ismoderator']);}-->
 <!--{block authorverifys}-->
 <!--{if $_G['setting']['verify']['enabled']}-->
 	<!--{loop $_G['setting']['verify'] $vid $verify}-->
@@ -83,6 +83,7 @@
 			<!--{if $post[custominfo][left]}--><dl class="pil cl">{$post[custominfo][left]}</dl><!--{/if}-->
 			<!--{if $post['medals']}-->
 				<p class="md_ctrl">
+					勋章<br>
 					<a href="home.php?mod=medal">
 						<!--{loop $post['medals'] $medal}-->
 						<img id="md_{$post[pid]}_{$medal[medalid]}" src="{STATICURL}image/common/$medal[image]" alt="$medal[name]" title="" onmouseover="showMenu({'ctrlid':this.id, 'menuid':'md_$medal[medalid]_menu', 'pos':'12!'});" />
