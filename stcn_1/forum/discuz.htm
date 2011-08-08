@@ -96,12 +96,11 @@
 								<!--{/if}-->
 							<!--{/if}-->
 							<td class="fl_g" width="$cat[forumcolwidth]">
-								<div class="fl_icn_g"{if !empty($forum[extra][iconwidth]) && !empty($forum[icon])} style="width: {$forum[extra][iconwidth]}px;"{/if}>
-								<!--{if $forum[icon]}-->
-									$forum[icon]
-								<!--{else}-->
-									<a href="$forumurl"{if $forum[redirect]} target="_blank"{/if}><img src="{IMGDIR}/forum{if $forum[folder]}_new{/if}.gif" alt="$forum[name]" /></a>
-								<!--{/if}-->
+								<div class="fl_icn_g"{if !empty($forum[extra][iconwidth]) && !empty($forum[icon])} style="width: 200px;"{/if}>
+									<div class="forum_icon_a"><img src="{STATICURL}/image/stcn_1/forum{if $forum[folder]}_new{/if}.gif" alt="$forum[name]" /></div>
+									<!--{if $forum[icon]}-->
+									<div class="forum_icon_b">$forum[icon]</div>
+									<!--{/if}-->
 								</div>
 								<dl{if !empty($forum[extra][iconwidth]) && !empty($forum[icon])} style="margin-left: {$forum[extra][iconwidth]}px;"{/if}>
 									<dt><a href="$forumurl"{if $forum[redirect]} target="_blank"{/if}{if $forum[extra][namecolor]} style="color: {$forum[extra][namecolor]};"{/if}>$forum[name]</a><!--{if $forum[todayposts] && !$forum['redirect']}--><em class="xw0 xi1" title="{lang forum_todayposts}"> ($forum[todayposts])</em><!--{/if}--></dt>
@@ -126,10 +125,12 @@
 								</dl>
 							</td>
 						<!--{else}-->
-							<td class="fl_icn" {if !empty($forum[extra][iconwidth]) && !empty($forum[icon])} style="width: 200px;"{/if}>
+							<td class="fl_icn" {if !empty($forum[extra][iconwidth]) && !empty($forum[icon])}style="width: 200px;"{/if}>
 									
 									<div class="forum_icon_a"><img src="{STATICURL}/image/stcn_1/forum{if $forum[folder]}_new{/if}.gif" alt="$forum[name]" /></div>
+									<!--{if $forum[icon]}-->
 									<div class="forum_icon_b">$forum[icon]</div>
+									<!--{/if}-->
 									
 							</td>
 							<td>

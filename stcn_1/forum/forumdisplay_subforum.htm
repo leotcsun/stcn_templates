@@ -17,12 +17,13 @@
 					<!--{/if}-->
 				<!--{/if}-->
 				<td class="fl_g" width="$_G[forum][forumcolwidth]">
-					<div class="fl_icn_g"{if !empty($sub[extra][iconwidth]) && !empty($sub[icon])} style="width: {$sub[extra][iconwidth]}px;"{/if}>
-					<!--{if $sub[icon]}-->
-						$sub[icon]
-					<!--{else}-->
-						<a href="$forumurl"{if $sub[redirect]} target="_blank"{/if}><img src="{IMGDIR}/forum{if $sub[folder]}_new{/if}.gif" alt="$sub[name]" /></a>
-					<!--{/if}-->
+					<div class="fl_icn_g"{if !empty($sub[extra][iconwidth]) && !empty($sub[icon])} style="width: 200px;"{/if}>
+						<div class="forum_icon_a"><img src="{STATICURL}/image/stcn_1/forum{if $fsub[folder]}_new{/if}.gif" alt="$sub[name]" /></div>
+						<!--{if $sub[icon]}-->
+						<div class="forum_icon_b">$sub[icon]</div>
+						<!--{/if}-->
+					
+
 					</div>
 					<dl{if !empty($sub[extra][iconwidth]) && !empty($sub[icon])} style="margin-left: {$sub[extra][iconwidth]}px;"{/if}>
 						<dt><a href="$forumurl" {if !empty($sub[redirect])}target="_blank"{/if} style="{if !empty($sub[extra][namecolor])}color: {$sub[extra][namecolor]};{/if}">$sub[name]</a><!--{if $sub[todayposts] && !$sub['redirect']}--><em class="xw0 xi1" title="{lang forum_todayposts}"> ($sub[todayposts])</em><!--{/if}--></dt>
@@ -47,12 +48,11 @@
 					</dl>
 				</td>
 			<!--{else}-->
-				<td class="fl_icn" {if !empty($sub[extra][iconwidth]) && !empty($sub[icon])} style="width: {$sub[extra][iconwidth]}px;"{/if}>
-					<!--{if $sub[icon]}-->
-						$sub[icon]
-					<!--{else}-->
-						<a href="$forumurl"{if $sub[redirect]} target="_blank"{/if}><img src="{IMGDIR}/forum{if $sub[folder]}_new{/if}.gif" alt="$sub[name]" /></a>
-					<!--{/if}-->
+				<td class="fl_icn" {if !empty($sub[extra][iconwidth]) && !empty($sub[icon])} style="width: 200px;"{/if}>
+						<div class="forum_icon_a"><img src="{STATICURL}/image/stcn_1/forum{if $sub[folder]}_new{/if}.gif" alt="$sub[name]" /></div>
+						<!--{if $sub[icon]}-->
+						<div class="forum_icon_b">$sub[icon]</div>
+						<!--{/if}-->
 				</td>
 				<td>
 					<h2><a href="$forumurl" {if !empty($sub[redirect])}target="_blank"{/if} style="{if !empty($sub[extra][namecolor])}color: {$sub[extra][namecolor]};{/if}">$sub[name]</a><!--{if $sub[todayposts] && !$sub['redirect']}--><em class="xw0 xi1" title="{lang forum_todayposts}"> ($sub[todayposts])</em><!--{/if}--></h2>
