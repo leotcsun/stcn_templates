@@ -28,11 +28,7 @@
 
 	<style id="diy_style" type="text/css"></style>
 
-<!--{if empty($gid)}-->
-	<div class="wp">
-		<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
-	</div>
-<!--{/if}-->
+
 
 <div id="ct" class="wp cl{if $_G['setting']['forumallowside']} ct2{/if}">
 	<!--{if empty($gid)}-->
@@ -42,6 +38,12 @@
 				<!--{if $_G['uid']}--><a href="home.php?mod=space&uid=$_G['uid']&do=thread&view=me" title="{lang my_posts}" class="xi2">{lang my_posts}</a><!--{/if}--><!--{if !empty($_G['setting']['search']['forum']['status'])}--><!--{if $_G['uid']}--><span class="pipe">|</span><!--{/if}--><a href="search.php?mod=forum&srchfrom=$newthreads&searchsubmit=yes" title="{lang show_newthreads}" class="xi2">{lang show_newthreads}</a><!--{/if}-->
 			</div>
 		</div>
+	<!--{/if}-->
+	
+	<!--{if empty($gid)}-->
+	<div class="wp">
+		<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+	</div>
 	<!--{/if}-->
 
 	<div class="mn">

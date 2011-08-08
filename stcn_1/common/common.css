@@ -1661,13 +1661,13 @@ DIY图片幻灯片未加载时隐藏
 	min-height: 230px;
 }
 
-
+/*
 #diy1 {
 	border: solid;
 	border-color: #2C1304;
 	border-width: 10px 10px 0px 10px;
 }
-
+*/
 .new_member_title .blocktitle {
 	-moz-border-radius: 30px 0 30px 0;
 	-webkit-border-radius: 30px 0 30px 0;
@@ -1703,12 +1703,16 @@ DIY图片幻灯片未加载时隐藏
 	border-radius: 30px 0 30px 0;
 }
 
-#diy1 .frame-1 {
+
+#diy1 .frame {
+/*
 	border: solid;
 	border-width: 0 0 0 0;
 	border-color: #CE9542;
-	margin: 0 0.5em 0 0.5em;
+*/
+	margin: 0 0.5em;
 }
+
 
 #diy1 .frame-1 .frame-1-c {
 	padding-top: 15px;
