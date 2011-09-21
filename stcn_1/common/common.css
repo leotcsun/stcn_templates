@@ -202,7 +202,7 @@ CSS 写作注意事项：
 	Explain:		文字提亮级别，分为两级，默认模板中，1为橙色，2为蓝色
 	Last Modify:	lushnis
 */
-	.xi1, .onerror { color: {NOTICETEXT}; }
+	.xi1, .onerror {  }
 	.xi2, .xi2 a, .xi3 a { color: #975900; }
 /*
 	Name:			mod_text_weight_level
@@ -1704,7 +1704,7 @@ DIY图片幻灯片未加载时隐藏
 }
 
 
-#diy1 .frame {
+#diy1 .frame	 {
 /*
 	border: solid;
 	border-width: 0 0 0 0;
