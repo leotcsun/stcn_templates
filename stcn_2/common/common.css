@@ -468,8 +468,8 @@ CSS 写作注意事项：
 */
 .ftid { float: left; margin-right: 6px; }
 	.ftid select { float: left; height: 23px; }
-	.ftid a { display: block; overflow: hidden; padding: 0 17px 0 4px; height: 21px; line-height: 21px; text-decoration: none !important; font-size: 12px; font-weight: 400; color: #DDB780 !important; border: 1px solid; border-color: {INPUTBORDERDARKCOLOR} {INPUTBORDER} {INPUTBORDER} {INPUTBORDERDARKCOLOR}; background: {WRAPBG} url({IMGDIR}/newarow.gif) no-repeat 100% 0; }
-		.ftid a:hover, .ftid a:focus { background-position: 100% -23px; color: #DDB780 }
+	.ftid a { display: block; overflow: hidden; padding: 0 17px 0 4px; height: 21px; line-height: 21px; text-decoration: none !important; font-size: 12px; font-weight: 400; color: {STCNCOLOR4} !important; border: 1px solid; border-color: {INPUTBORDERDARKCOLOR} {INPUTBORDER} {INPUTBORDER} {INPUTBORDERDARKCOLOR}; background: {WRAPBG} url({IMGDIR}/newarow.gif) no-repeat 100% 0; }
+		.ftid a:hover, .ftid a:focus { background-position: 100% -23px; color: {STCNCOLOR4} }
 	/* ctrl 'select' width */
 	.ftid select { width: 94px; }
 	.sslt a { width: 54px; }
@@ -690,7 +690,7 @@ CSS 写作注意事项：
 			 .ct2_a h1.mt { display: none; }
 			 .ct2_a .tb { margin-top: 3px; }
 		.ct2_a .mn { float: right; width: 810px; }
-			.ct2_a .mn { display: inline; margin-right: 10px; padding-top: 10px; width: 800px; }
+			.ct2_a .mn { display: inline; margin-right: 10px; padding-top: 10px; width: 1100px; }
 				#nv_userapp .ct2_a .mn, .ct2_a_r .mn { margin-right: 0; width: 810px; }
 
 		.ct3_a .mn { float: left; margin-left: 20px; width: 565px; }
@@ -808,7 +808,7 @@ CSS 写作注意事项：
 	/* 类似menu的Tab */
 .tbmu { padding: 10px; border-bottom: 1px dashed {COMMONBORDER}; }
 	.tbmu a { color: {HIGHLIGHTLINK}; }
-	.tbmu .a { color: {LINK}; font-weight: 700; }
+	.tbmu .a { color: {STCNCOLOR4}; font-weight: 700; }
 	/* tab的强调信息提示 */
 .tbms { padding: 10px 10px 10px 26px; border: 1px dashed #FF9A9A; background: url({IMGDIR}/notice.gif) no-repeat 10px 50%; }
 .tbms_r { background-image: url({IMGDIR}/data_valid.gif); }

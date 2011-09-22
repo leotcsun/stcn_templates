@@ -269,7 +269,7 @@ Created & Modified by Monkey, Lushnis, Pony, Dfox & DragonLee.
 
 /** forum::modcp,forum::post,group::post,home::spacecp,portal::portalcp **/
 /* 提交表单 */
-	.exfm { margin: 10px 0; padding: 10px 14px; border: 2px dashed #bc6f03; background: #E8AB55; }
+	.exfm { margin: 10px 0; padding: 10px 14px; border: 2px dashed {STCNCOLOR4}; background: {STCNCOLOR3}; }
 		.exfm .pn { height: 22px; line-height: 22px; font-size: 12px; }
 		.ie6 .exfm .pn, .ie7 .exfm .pn { line-height: 16px; }
 		.exfm .rq { float: right; padding-right: 2px; }
@@ -357,7 +357,7 @@ Created & Modified by Monkey, Lushnis, Pony, Dfox & DragonLee.
 	Explain:		看贴页左侧的版块导航。宽度在CSS里没有默认值，宽度在后台设置
 	Last Modify:	Pony
 */
-.bdl { float: left; overflow: hidden; border: 0.4em solid #e8ab55; background-color: white; }
+.bdl { float: left; overflow: hidden; border: 0.4em solid {STCNCOLOR5}; background-color: white; }
 	.ie6 .bdl { position: relative; }
 	.bdl_h { height: 32px; line-height: 22px; }
 .bdl .tbn { margin: 10px; }
@@ -374,7 +374,7 @@ Created & Modified by Monkey, Lushnis, Pony, Dfox & DragonLee.
 		.bdl dl.a dt { margin-bottom: 3px; background-position: 100% -27px; }
 		.bdl dl.a dd, .bdl_fav dd { display: block; overflow: hidden; zoom: 1; }
 			/* 当前版块 */
-			.bdl dd.bdl_a a { background-color: white; font-weight: 700; font-color: black;  border: solid; border-color: #e8ab55; }
+			.bdl dd.bdl_a a { background-color: white; font-weight: 700; font-color: black;  border: solid; border-color: {STCNCOLOR5}; }
 
 /*
 	Level:			Channel
